@@ -6,7 +6,7 @@ export default function Home() {
 
   return (
     <div className={styles.pagina}>
-      <h1>Bem-vindo à Loja</h1>
+      <h1>Bem-vindo à Serratec</h1>
       <p>Encontre os melhores produtos com os melhores preços.</p>
       <button onClick={() => navigate('/produtos')} className={styles.btn}>
         Ver Produtos

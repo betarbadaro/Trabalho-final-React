@@ -1,0 +1,29 @@
+.pagina {
+  padding: 2rem;
+
+  min-height: 100vh;
+}
+
+.pagina h1 {
+  color: #cdd6f4;
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #313244;
+  color: #cdd6f4;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}

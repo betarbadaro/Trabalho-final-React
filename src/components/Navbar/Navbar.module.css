@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1e1e2e;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.links a {
+  color: #cdd6f4;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.links a:hover {
+  color: #89b4fa;
+}
+
+.acoes {
+  display: flex;
+  gap: 1rem;
+}
+
+.acoes button {
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #313244;
+  color: #cdd6f4;
+  font-size: 0.9rem;
+}
+
+.acoes button:hover {
+  background-color: #45475a;
+}

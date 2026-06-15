@@ -1,0 +1,43 @@
+.pagina {
+  padding: 2rem;
+
+  min-height: 100vh;
+  color: #cdd6f4;
+}
+
+.pagina h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.pagina p {
+  color: #bac2de;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.card {
+  margin-top: 2rem;
+  background-color: #313244;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+  color: #89b4fa;
+}
+
+.card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card li {
+  color: #cdd6f4;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #45475a;
+}

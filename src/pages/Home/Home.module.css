@@ -1,0 +1,35 @@
+.pagina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  
+  color: #cdd6f4;
+  gap: 1rem;
+}
+
+.pagina h1 {
+  font-size: 2.5rem;
+}
+
+.pagina p {
+  font-size: 1.2rem;
+  color: #bac2de;
+}
+
+.btn {
+  padding: 0.7rem 2rem;
+  background-color: #89b4fa;
+  color: #1e1e2e;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: #74c7ec;
+}
